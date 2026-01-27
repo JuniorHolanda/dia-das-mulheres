@@ -28,8 +28,8 @@ export default function Slider({ slides }: MySwiperProps) {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 7000 }}
-                speed={3000}
+                autoplay={{ delay: 5000 }}
+                speed={2000}
                 loop
             >
                 {slides.map((slide, index) => (

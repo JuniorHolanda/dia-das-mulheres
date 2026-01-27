@@ -1,23 +1,23 @@
 [
     {
+    "name": "Pasta Fran",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1769522593/pasta-fran-rosa-dia-das-mulheres-1920x700_gykjft.jpg",
+    "altImg": "Uma pasta personalizada rosa sendo com arte feliz dia da mulher"
+  },
+  {
     "name": "Chaveiro Basic",
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757950993/chaveiro-basic-sala_b2hdhi.jpg",
-    "altImg": "Um chaveiro personalizado sobre uma mesa com uma gravação silk de Outubro Rosa"
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1769520674/termica-miu-pink-dia-das-mulheres_s5vdum.jpg",
+    "altImg": "Uma térmica personalizada com dia das mulheres"
   },
 
   {
-    "name": "Porta caneta elástico",
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757944211/banner-porta-caneta-elastico_o6lqms.jpg",
-    "altImg": "Uma agenda personalizada rosa sobre uma mesa de escritório, envolto à agenda está o brinde corporativo personalizado porta caneta com canetas personalizadas dentro"
+    "name": "Chaveiro basic",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1769521176/chaveiro-basic-sala_r7egfs.jpg",
+    "altImg": "um chaveiro rosa sobre uma mesa"
   },
   {
-    "name": "Necessaire Malote",
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757944377/banner-nec-malote_mwmdbg.jpg",
-    "altImg": "Uma necessaire branca feita em sintético sobre um fundo rosa minimalista"
-  },
-  {
-    "name": "Térmica Baú Quad",
-    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757945670/termica-bau-quad-cozinha_hego9g.jpg",
-    "altImg": "Uma térmica personalizada com temática Outubro Rosa sobre uma bancada com alguns lanches e bebidas dentro"
+    "name": "Necessaire Ev Bolso",
+    "img": "https://res.cloudinary.com/dnr3wfqyy/image/upload/v1769522088/necessaire-ev-bolso-rosa-dia-das-mulheres_gyzcal.jpg",
+    "altImg": "uma necessaire rosa em um quarto feminino"
   }
 ]

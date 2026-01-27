@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 
 
   openGraph: {
-    title: "Outubro Rosa ",
-    description: "Confira nossas sugestões de brindes para o Outubro Rosa",
+    title: "Dia das Mulheres",
+    description: "Confira nossas sugestões de brindes para o dia das mulheres",
     type: 'website',
     url: 'catalogo.miriammomesso.com.br',
     images: [
       {
-        url: 'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757971418/thumbnail_mjpgoi.jpg',
+        url: '',
         width: 600,
         height: 600,
         alt: 'logo da empresa miriam momesso',
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: 'summary_large_image',
-    title: "Outubro Rosa",
-    description: "Confira nossas sugestões para Outubro Rosa",
+    title: "Dia das mulheres",
+    description: "Confira nossas sugestões para Dia das mulheres",
     images: [
-      'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1757971418/thumbnail_mjpgoi.jpg',
+      '',
     ],
   },
 
@@ -54,12 +54,14 @@ export const metadata: Metadata = {
 export default async function Home() {
 
   const keywords = [
-    'Porta Caneta Elástico',
-    'Necessaire Malote',
-    'Térmica Baú Quad',
-    'Chaveiro Basic',
     'Carteira Slim',
-    'Necessaire Fachini'
+    'Carteira Basic',
+    'Térmica Miu',
+    'Chaveiro Basic',
+    'Necessaire Gran',
+    'Pasta Fran',
+    'Necessaire Ev',
+    'Porta Cartão Basic'
   ];
 
 
@@ -76,8 +78,8 @@ export default async function Home() {
       <EntraceLoad />
       <Shome>
         <Header
-          title="Outubro Rosa"
-          text="Confira nossas sugestões de brindes"
+          title="Dia das Mulheres"
+          text="Confira nossa seleção de produtos para esse 8 de março"
         />
         <Scontent>
           <Slider slides={sliderProduct} />
