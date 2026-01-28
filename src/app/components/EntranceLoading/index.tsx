@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { useEffect, useRef, useState } from "react";
 import Lottie from "react-lottie-player";
-import entraceAnimation from '@/app/animation/outubro-rosa.json'
+import entraceAnimation from '@/app/animation/lottie-dia-das-mulheres.json'
 
 const Soverlay = styled.main`
   position: fixed;
@@ -14,6 +14,11 @@ const Soverlay = styled.main`
   width: 100%;
   height: 100vh;
   background: #f1a4c4;
+
+  .animationLottie {
+	/* width: 500px; */
+	height: 500px;
+  }
 `;
 
 export default function EntraceLoad() {
@@ -38,6 +43,7 @@ export default function EntraceLoad() {
 		return (
 			<Soverlay>
 				<Lottie
+				className="animationLottie"
 					ref={animationRef}
 					play={true}
 					animationData={entraceAnimation}

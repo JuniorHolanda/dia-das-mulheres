@@ -11,8 +11,8 @@ import EntraceLoad from "./components/EntranceLoading";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Outubro Rosa",
-  description: "Confira nossas sugestões de brindes para o Outubro Rosa",
+  title: "Dia das mulheres",
+  description: "Confira nossas sugestões de brindes para o Dia das mulheres",
 
   icons: {
     icon: '/favicon.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     url: 'catalogo.miriammomesso.com.br',
     images: [
       {
-        url: '',
+        url: 'https://res.cloudinary.com/dnr3wfqyy/image/upload/v1769598327/img-label_q1d6qv.png',
         width: 600,
         height: 600,
         alt: 'logo da empresa miriam momesso',

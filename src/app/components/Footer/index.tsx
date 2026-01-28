@@ -23,7 +23,7 @@ type PropsData = {
 
 export default function Footer() {
   const textWhatsApp =
-    "Olá venho da campanha Outubro Rosa e gostaria de saber mais sobre os produtos.";
+    "Olá venho da campanha Dia das mulheres e gostaria de saber mais sobre os produtos.";
   const numbWhatsApp = "38070539";
 
   const [formData, setFormData] = useState<PropsData>({
@@ -102,7 +102,7 @@ export default function Footer() {
               <a
                 href={`https://wa.me/5511${numbWhatsApp}?text=${textWhatsApp}`}
                 target="_blank"
-                aria-label="Conversar no WhatsApp sobre a campanha de Outubro Rosa"
+                aria-label="Conversar no WhatsApp sobre a campanha de Dia das mulheres"
               >
                 <span>
                   <FaWhatsapp />
