@@ -17,26 +17,29 @@ const Soverlay = styled.main`
 
   .animationLottie {
 	/* width: 500px; */
-	height: 500px;
+	height: 700px;
   }
 `;
 
 export default function EntraceLoad() {
-	const [loading, setLoading] = useState(false);
+	const [loading, setLoading] = useState(true);
 	const animationRef = useRef(null);
 
 	useEffect(() => {
-		const hasLoaded = sessionStorage.getItem('catalogLoaded')
+		const hasLoaded = sessionStorage.getItem('catalogLoaded');
 
-		if (!hasLoaded) {
-			setLoading(true);
-			const timer = setTimeout(() => {
-				setLoading(false);
-				sessionStorage.setItem('catalogLoaded', 'true');
-			}, 6000);
-			return () => clearTimeout(timer)
+		if (hasLoaded) {
+			setLoading(false);
+			return;
 		}
-	}, []);
+
+		const timer = setTimeout(() => {
+			setLoading(false);
+			sessionStorage.setItem('catalogLoaded', 'true');
+		}, 6000);
+
+  return () => clearTimeout(timer);
+}, []);
 
 
 	if (loading) {

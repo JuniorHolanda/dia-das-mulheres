@@ -24,6 +24,7 @@ export default function Slider({ slides }: MySwiperProps) {
         <SswiperWrapper>
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
+                grabCursor={true}
                 spaceBetween={0}
                 slidesPerView={1}
                 navigation
