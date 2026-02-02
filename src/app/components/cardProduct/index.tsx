@@ -27,6 +27,7 @@ export default function Card({ product }: CardProps): JSX.Element {
     dialogRef.current?.close();
   };
 
+  const showDialog = width !== undefined && width >= 1600;
 
   //controla a quantidade de img por card, 3 pra desktop e 1 pra mobile
   const maxImgs = width === undefined || width >= 1300 ? 3
@@ -52,7 +53,10 @@ export default function Card({ product }: CardProps): JSX.Element {
 
   return (
     <Scard>
-      <Sdialog ref={dialogRef}>
+
+      {
+        showDialog && (
+          <Sdialog ref={dialogRef}>
         <SwrapperBtnClose>
           <button onClick={() => closePopup()}><IoClose /></button>
         </SwrapperBtnClose>
@@ -80,6 +84,8 @@ export default function Card({ product }: CardProps): JSX.Element {
         </SbuttonProduct>
       </Sdialog>
 
+        )
+      }
       <ScontainerSlider>
         {listImg
           .filter((_, index) => index < maxImgs)
